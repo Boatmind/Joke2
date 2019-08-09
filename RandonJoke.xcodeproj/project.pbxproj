@@ -14,6 +14,8 @@
 		1255C1C922FD277300AB5D37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1255C1C722FD277300AB5D37 /* LaunchScreen.storyboard */; };
 		1255C1D422FD277300AB5D37 /* RandonJokeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1255C1D322FD277300AB5D37 /* RandonJokeTests.swift */; };
 		1255C1DF22FD277300AB5D37 /* RandonJokeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1255C1DE22FD277300AB5D37 /* RandonJokeUITests.swift */; };
+		1255C1ED22FD278600AB5D37 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1255C1EC22FD278600AB5D37 /* APIManager.swift */; };
+		1255C1EF22FD27C600AB5D37 /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1255C1EE22FD27C600AB5D37 /* Joke.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		1255C1DA22FD277300AB5D37 /* RandonJokeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandonJokeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1255C1DE22FD277300AB5D37 /* RandonJokeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandonJokeUITests.swift; sourceTree = "<group>"; };
 		1255C1E022FD277300AB5D37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1255C1EC22FD278600AB5D37 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		1255C1EE22FD27C600AB5D37 /* Joke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joke.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				1255C1C522FD277300AB5D37 /* Assets.xcassets */,
 				1255C1C722FD277300AB5D37 /* LaunchScreen.storyboard */,
 				1255C1CA22FD277300AB5D37 /* Info.plist */,
+				1255C1EC22FD278600AB5D37 /* APIManager.swift */,
+				1255C1EE22FD27C600AB5D37 /* Joke.swift */,
 			);
 			path = RandonJoke;
 			sourceTree = "<group>";
@@ -256,7 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1255C1ED22FD278600AB5D37 /* APIManager.swift in Sources */,
 				1255C1C122FD277300AB5D37 /* ViewController.swift in Sources */,
+				1255C1EF22FD27C600AB5D37 /* Joke.swift in Sources */,
 				1255C1BF22FD277300AB5D37 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
